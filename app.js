@@ -53,3 +53,4 @@ function RegBtn(event) {
 
   event.preventDefault();
 }
+console.log("Test");
