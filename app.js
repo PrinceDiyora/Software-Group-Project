@@ -1,30 +1,30 @@
 import "./Style.css";
 import "./Style1.css";
 var count = 0;
-function btnfn() {
+function btnfn(event) {
   var loguser = document.getElementById("username").value;
   var logpass = document.getElementById("pass").value;
-  for (var i = 0; i < count; i++) {
-    if (
-      loguser.localeCompare(MainUser[i]) &&
-      logpass.localeCompare(MainPass[i])
-    ) {
-      window.location.assign("digitalworld.html");
-      console.log("login");
-    } else {
-      alert("Username or password Mismatch");
-      console.log("login1");
-    }
-  }
-  event.preventDefault();
+  // for (var i = 0; i < count; i++) {
+  //   if (
+  //     loguser.localeCompare(MainUser[i]) &&
+  //     logpass.localeCompare(MainPass[i])
+  //   ) {
+  //     window.location.assign("digitalworld.html");
+  //     console.log("login");
+  //   } else {
+  //     alert("Username or password Mismatch");
+  //     console.log("login1");
+  //   }
+  // }
+  // event.preventDefault();
 
-  /*if (loguser == "a" && logpass == "ab") {
+  if (loguser == "a" && logpass == "ab") {
     alert("successful !");
-    window.location.assign("hello.html");
+    window.location.assign("digitalworld.html");
   } else {
     alert("Username or password Mismatch");
   }
-  event.preventDefault();*/
+  event.preventDefault();
 }
 
 function regRed() {
