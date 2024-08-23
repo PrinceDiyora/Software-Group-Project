@@ -9,7 +9,7 @@ function btnfn() {
       loguser.localeCompare(MainUser[i]) &&
       logpass.localeCompare(MainPass[i])
     ) {
-      window.location.assign("hello.html");
+      window.location.assign("digitalworld.html");
       console.log("login");
     } else {
       alert("Username or password Mismatch");
