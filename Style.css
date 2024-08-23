@@ -105,6 +105,6 @@ body {
   font-weight: 600;
   text-decoration: none;
 }
-.register-link p button:hover {
+.register-link p a:hover {
   text-decoration: underline;
 }
