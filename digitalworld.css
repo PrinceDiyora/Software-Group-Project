@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: white;
+}
+
+.navbar {
+  height: 70px;
+  background-color: white;
+  align-items: center;
+  display: flex;
+}
+.logo {
+  margin-left: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 27px;
+
+  font-weight: bold;
+}
+.home {
+  margin-left: 220px;
+}
+.services {
+  margin-left: 45px;
+}
+
+.watchs {
+  margin-left: 45px;
+}
+.itemwatch {
+}
+.itemwatch:hover {
+  background-color: aliceblue;
+}
+.smartphone {
+  margin-left: 45px;
+}
+.laptop {
+  margin-left: 45px;
+}
+.sale {
+  margin-left: 45px;
+}
+.blog {
+  margin-left: 45px;
+}
+.pages {
+  margin-left: 45px;
+}
+.pagelogo {
+  margin-left: 5px;
+  font-size: 15px;
+  padding-bottom: 2px;
+}
+.login {
+  margin-left: 80px;
+}
+.addtocart {
+  margin-left: 30px;
+}
+.slider {
+  margin-top: 40px;
+  height: 500px;
+  width: 100%;
+
+  border: solid;
+  font-size: 0;
+}
+.servicemain {
+  margin-top: 70px;
+  height: 200px;
+
+  background-color: azure;
+}
+.service1 {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  height: 70px;
+
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.a {
+  height: 100%;
+  width: 25%;
+}
+.b {
+  height: 100%;
+  width: 28%;
+}
+.c {
+  height: 100%;
+  width: 22%;
+}
+.a1 {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: left;
+  font-size: 23px;
+}
+
+.a2 {
+  margin-left: 15px;
+}
+#p1 {
+  height: 100%;
+  width: 17%;
+  padding-left: 43px;
+}
+#p2 {
+  margin-left: 58px;
+  height: 100%;
+  width: 22%;
+  padding-left: 40px;
+}
+#p3 {
+  margin-left: 40px;
+  height: 100%;
+  width: 16%;
+  padding-left: 40px;
+}
+#p4 {
+  height: 100%;
+  width: 16%;
+  margin-left: 40px;
+  padding-left: 47px;
+}
+.service2 {
+  height: 110px;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  color: rgb(110, 110, 110);
+}
+.watch {
+  margin-top: 25px;
+  font-size: 35px;
+
+  margin-left: 100px;
+}
+.itemwatch {
+  margin-top: 25px;
+  display: flex;
+  margin-left: 100px;
+  justify-content: space-between;
+  margin-right: 100px;
+}
+.pw {
+  margin-top: 20px;
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+}
+.pw1 {
+  color: rgb(66, 147, 240);
+}
+.item1 {
+  height: 400px;
+  width: 290px;
+}
+.sale1 {
+  height: 500px;
+  width: 100%;
+  border: solid;
+}
+.sale2 {
+  height: 100%;
+  width: 100%;
+}
+.blogs {
+  margin-top: 25px;
+  display: flex;
+  margin-left: 120px;
+  justify-content: space-between;
+  margin-right: 120px;
+}
+.blog1 {
+  height: 280px;
+  width: 425px;
+}
+.blog2 {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.blog3 {
+  font-size: medium;
+  color: rgb(108, 108, 108);
+  margin-bottom: 4px;
+}
+.subscribe {
+  margin-top: 90px;
+  margin-left: 120px;
+  margin-right: 120px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+.sub1 {
+  height: 60px;
+  width: 50%;
+
+  margin-left: 70px;
+}
+.sub2 {
+  font-size: 28px;
+  color: white;
+}
+.sub3 {
+  margin-top: 10px;
+  font-size: medium;
+  color: gray;
+}
+.sub4 {
+  height: 60px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.text1 {
+  height: 35px;
+  width: 300px;
+  font-size: medium;
+}
+.text2 {
+  height: 36px;
+  width: 120px;
+  color: white;
+  background-color: rgb(82, 138, 248);
+}
