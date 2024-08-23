@@ -1,4 +1,5 @@
-import "./style.css";
+import "./Style.css";
+import "./Style1.css";
 var count = 0;
 function btnfn() {
   var loguser = document.getElementById("username").value;
@@ -26,7 +27,7 @@ function btnfn() {
   event.preventDefault();*/
 }
 
-function regRed(event) {
+function regRed() {
   window.location.assign("Register.html");
   event.preventDefault();
 }

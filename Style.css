@@ -94,7 +94,7 @@ body {
   text-align: center;
   margin: 20px 0 15px;
 }
-.register-link p button {
+.register-link p a {
   color: black;
   background-color: none;
   border: none;
