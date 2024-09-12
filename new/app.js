@@ -23,7 +23,7 @@ function btnfn(event) {
 
   if (loguser === 'a' && logpass === 'ab') {
     alert("successful !");
-    window.location.replace("new/index.html");
+    window.location.replace("index.html");
   } else {
     alert("Username or password Mismatch");
   }
