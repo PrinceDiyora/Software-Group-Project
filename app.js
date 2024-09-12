@@ -1,9 +1,10 @@
-import "./Style.css";
-import "./Style1.css";
+// import "./Style.css";
+// import "./Style1.css";
 
-import products from "products.json";
+// import products from "products.json";
 var count = 0;
 function btnfn(event) {
+  event.preventDefault();
   var loguser = document.getElementById("username").value;
   var logpass = document.getElementById("pass").value;
   // for (var i = 0; i < count; i++) {
@@ -20,13 +21,13 @@ function btnfn(event) {
   // }
   // event.preventDefault();
 
-  if (loguser == "a" && logpass == "ab") {
+  if (loguser === 'a' && logpass === 'ab') {
     alert("successful !");
-    window.location.assign("digitalworld.html");
+    window.location.replace("new/index.html");
   } else {
     alert("Username or password Mismatch");
   }
-  event.preventDefault();
+  return false;
 }
 
 function regRed() {
