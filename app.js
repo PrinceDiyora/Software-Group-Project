@@ -1,5 +1,7 @@
 import "./Style.css";
 import "./Style1.css";
+
+import products from "products.json";
 var count = 0;
 function btnfn(event) {
   var loguser = document.getElementById("username").value;
