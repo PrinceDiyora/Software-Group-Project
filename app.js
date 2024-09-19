@@ -2,11 +2,15 @@
 // import "./Style1.css";
 
 // import products from "products.json";
-var count = 0;
+// var count = 0;
 function btnfn(event) {
   event.preventDefault();
-  var loguser = document.getElementById("username").value;
-  var logpass = document.getElementById("pass").value;
+
+  var storedName = localStorage.getItem('Rusername');
+  var storedPw = localStorage.getItem('Rpass');
+
+  var loguser = document.getElementById('username');
+  var logpass = document.getElementById('pass');
   // for (var i = 0; i < count; i++) {
   //   if (
   //     loguser.localeCompare(MainUser[i]) &&
@@ -21,7 +25,7 @@ function btnfn(event) {
   // }
   // event.preventDefault();
 
-  if (loguser === 'a' && logpass === 'ab') {
+  if (loguser.value == storedName && logpass.value === storedPw) {
     alert("successful !");
     window.location.replace("index.html");
   } else {
@@ -35,25 +39,26 @@ function regRed() {
   event.preventDefault();
 }
 
-var MainUser = [];
-var MainPass = [];
-var MainEmail = [];
+// var MainUser = [];
+// var MainPass = [];
+// var MainEmail = [];
 
 function RegBtn(event) {
-  var Regusername = document.getElementById("Rusername").value;
-  var Regpassword = document.getElementById("Rpass").value;
-  var email = document.getElementById("email").value;
+  var Rusername = document.getElementById('Rusername');
+  var Rpass = document.getElementById('Rpass');
+  var email = document.getElementById('email');
 
-  MainUser[count] = Regusername;
-  MainPass[count] = Regpassword;
-  MainEmail[count] = email;
-  count = count + 1;
-  if (Regusername == null || Regpassword == null || email == null) {
+  // MainUser[count] = Regusername;
+  // MainPass[count] = Regpassword;
+  // MainEmail[count] = email;
+  // count = count + 1;
+  if (Rusername.value.length == 0 || Rpass.value.length == 0 || email.value.length == 0) {
     alert("Fill all the fields");
   } else {
-    console.log("hello");
+    localStorage.setItem('Rusername',Rusername.value);
+    localStorage.setItem('Rpass',Rpass.value);
     alert("Succesfully Registered!!");
-    window.location.replace("index.html");
+    window.location.replace("login.html");
   }
 
   event.preventDefault();
