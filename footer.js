@@ -41,7 +41,7 @@ const footerHTML = `
     </div>
     <div class="f-design">
       <div class="f-design-txt">
-        <p>Design and Code by CSPIT Bois</p>
+        <p>Design and Code by CSPIT TEAM</p>
       </div>
     </div>
   </footer>`;
