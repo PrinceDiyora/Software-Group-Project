@@ -34,7 +34,7 @@ const showCartProduct = () => {
     productClone.querySelector(".productPrice").textContent =
       lSActualData.price;
 
-    // handle increment and decrement button
+ 
     productClone
       .querySelector(".stockElement")
       .addEventListener("click", (event) => {
@@ -49,12 +49,9 @@ const showCartProduct = () => {
   });
 };
 
-// -----------------------------------------------------
-// Showing the cartProducts
-// --------------------------------------------------------
+
+
 showCartProduct();
 
-// -----------------------------------------------------
-// calculating the card total in our cartProducts page
-// --------------------------------------------------------
+
 updateCartProductTotal();
