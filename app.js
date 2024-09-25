@@ -11,19 +11,6 @@ function btnfn(event) {
 
   var loguser = document.getElementById('username');
   var logpass = document.getElementById('pass');
-  // for (var i = 0; i < count; i++) {
-  //   if (
-  //     loguser.localeCompare(MainUser[i]) &&
-  //     logpass.localeCompare(MainPass[i])
-  //   ) {
-  //     window.location.assign("digitalworld.html");
-  //     console.log("login");
-  //   } else {
-  //     alert("Username or password Mismatch");
-  //     console.log("login1");
-  //   }
-  // }
-  // event.preventDefault();
 
   if (loguser.value == storedName && logpass.value === storedPw) {
     alert("successful !");
@@ -39,19 +26,11 @@ function regRed() {
   event.preventDefault();
 }
 
-// var MainUser = [];
-// var MainPass = [];
-// var MainEmail = [];
-
 function RegBtn(event) {
   var Rusername = document.getElementById('Rusername');
   var Rpass = document.getElementById('Rpass');
   var email = document.getElementById('email');
 
-  // MainUser[count] = Regusername;
-  // MainPass[count] = Regpassword;
-  // MainEmail[count] = email;
-  // count = count + 1;
   if (Rusername.value.length == 0 || Rpass.value.length == 0 || email.value.length == 0) {
     alert("Fill all the fields");
   } else {
