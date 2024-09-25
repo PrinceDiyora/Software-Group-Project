@@ -25,7 +25,7 @@ export const showProductContainer = (products) => {
     productClone.querySelector(".productDescription").textContent = description;
     productClone.querySelector(".productPrice").textContent = `₹${price}`;
     productClone.querySelector(".productActualPrice").textContent = `₹${
-      price * 4
+      price * 1.5
     }`;
 
     productClone
