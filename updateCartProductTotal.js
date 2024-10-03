@@ -13,5 +13,10 @@ export const updateCartProductTotal = () => {
   //   console.log(totalProductPrice);
 
   productSubTotal.textContent = `₹${totalProductPrice}`;
-  productFinalTotal.textContent = `₹${totalProductPrice + 50}`;
+  productFinalTotal.textContent = `₹${
+    totalProductPrice + totalProductPrice * 0.18
+  }`;
+
+  let taxElement = document.querySelector(".productTax"); 
+  taxElement.textContent = `₹${(totalProductPrice * 0.18)}`; 
 };

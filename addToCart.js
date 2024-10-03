@@ -2,14 +2,7 @@ import { getCartProductFromLS } from "./getCartProducts";
 import { showToast } from "./showToast";
 import { updateCartValue } from "./updateCartValue";
 
-
-// to get the cart data from localStorage
-// to update the cart value and also to get the data always ready from localStorage
-
 getCartProductFromLS();
-
-
-// to add the data into localStorage
 
 export const addToCart = (event, id, stock) => {
   let arrLocalStorageProduct = getCartProductFromLS();
@@ -42,7 +35,6 @@ export const addToCart = (event, id, stock) => {
   }
 
   if (existingProd) {
-  
     return false;
   }
 
