@@ -14,10 +14,22 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="signup.css" />
     <script type="text/javascript" src="app.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "StTeRhoBxawi33jfo",
+        });
+      })();
+    </script>
   </head>
   <body>
     <div class="wrapper">
@@ -71,7 +83,7 @@
                 />
                 <i class="bx bxs-lock-alt"></i>
             </div> -->
-        <button type="submit" onclick="RegBtn(event)" class="btn">
+        <button type="submit" onclick="sendemail()" class="btn">
           Signup
         </button>
         <div class="register-link">
